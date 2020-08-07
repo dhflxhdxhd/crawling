@@ -15,7 +15,7 @@ html = urlopen(url)
 
 # bs4이용 분석
 soup = bs(html, "html.parser")
-img = soup.find_all(class_='_img')
+img = soup.select('._img')
 
 # print(img[0])
 
@@ -30,4 +30,4 @@ for i in img:
             save.write(img)
     n += 1
 
-# print('downloaded.')
+print('downloaded.')
