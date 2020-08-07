@@ -1,3 +1,6 @@
+# Use Beautifulsoup & Selenium
+# 단점 : 속도가 느리다.
+
 # Selenium은 주로 웹앱을 테스트하는데 이용하는 프레임워크
 # webdriver라는 API를 통해 운영체제에 설치된 Chrome등의 브라우저를 제어
 
